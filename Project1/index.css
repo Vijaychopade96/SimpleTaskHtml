@@ -1,0 +1,15 @@
+
+*{
+    background-image: url(./lake-1802337__340.webp);
+    background-size: cover;
+}
+div{
+    height: 100vh;
+    width: 100vh;
+}
+img{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    
+}

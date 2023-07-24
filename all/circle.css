@@ -1,0 +1,22 @@
+body{
+    background-color: #1c2a44;
+    overflow: hidden;
+}
+.circle{
+    animation: spin 2s infinite;
+}
+#outer-circle{
+    background: #344056;
+    border-radius: 50%;
+    height: 45vw;
+    width: 45vw;
+    position: relative;
+    margin: auto;
+    margin-top: 5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) 0 6px 20px 0 #02e4e7 ;
+}
+.inner-circle{
+    position: absolute;
+    background: #02e4e7;
+    border-radius: 50vw;
+}

@@ -1,0 +1,25 @@
+.blob{
+    width: 200px;
+    height: 200px;
+    border-radius:70% 40% 30% 80% / 55% 45% 60% 50% ;
+    background: #8f44fd;
+    animation: blod 1s ease;
+}
+@keyframes blod{
+    0%{
+        scale: 45;
+        background: #191919;
+    }
+    30%{
+        scale: 36;
+        background: #6787;
+    }
+    70%{
+        scale: 70;
+        background: hotpink;
+    }
+    100%{
+        scale: 90;
+        background: yellow;
+    }
+}

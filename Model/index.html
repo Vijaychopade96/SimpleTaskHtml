@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model</title>
+    <link rel="stylesheet" href="./inde.css">
+</head>
+<body>
+    <button onclick="togglemodal()" type="button">Open Model</button>
+    <div class="model-background"
+    onclick="togglemodal()"></div>
+    <div class="modal">
+        <h1>Model Window</h1>
+        You Have to Opened Modal Window,
+        they are greater to confirming actions or display 
+        crictcal information
+
+    </div>
+    <script>
+        const togglemodal=()=>{
+            const{classList}=document.body;
+            if(classList.contains("open")){
+                classList.remove("open");
+                classList.add("closed");
+
+            }
+            else{
+                classList.remove("closed");
+                classList.add("open");
+            }
+        };
+    </script>
+</body>
+</html>

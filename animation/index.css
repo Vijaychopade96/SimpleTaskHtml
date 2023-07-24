@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: rotate(0deg);
+    animation: ani 10s ease-in-out 3s infinite;
+}
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);
+        background-color: yellow;
+        border-radius: 10%;
+
+    }
+    40%{
+        transform: rotate(90deg);
+        background-color: rgb(18, 215, 215);
+        border-radius: 20%;
+    }
+    80%{
+        transform: rotate(240deg);
+        background-color: chocolate;
+        border-radius: 50%;
+    }
+    100%{
+        transform: rotate(360deg);
+        background-color: crimson;
+        border-radius: 50%;
+    }
+}

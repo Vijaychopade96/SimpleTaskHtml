@@ -1,0 +1,81 @@
+body{
+    background-color: #333;
+}
+
+.drop{
+    display: flex;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+}
+.drop span{
+    position: relative;
+    margin: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 4px solid black;
+    background-color:white;
+    animation: dop  4s ease-in-out infinite;
+
+}
+.drop span:nth-child(1){
+    animation-delay: 1s;
+    top: 18px;
+
+}
+.drop span:nth-child(2){
+    animation-delay: 2s;
+    top: 20px;
+
+}
+.drop span:nth-child(3){
+    animation-delay: 3s;
+    top: 22px;
+
+}
+.drop span:nth-child(4){
+    animation-delay: 4s;
+    top: 24px;
+
+}
+.drop span:nth-child(5){
+    animation-delay: 5s;
+    top: 26px;
+
+}
+.drop span:nth-child(6){
+    animation-delay: 6s;
+    top: 28px;
+
+}
+.drop span:nth-child(7){
+    animation-delay: 7s;
+    top: 30px;
+
+}
+.drop span:nth-child(8){
+    animation-delay: 8s;
+    top: 32px;
+
+}
+.drop span:nth-child(9){
+    animation-delay: 9s;
+    top: 34px;
+
+}
+.drop span:nth-child(10){
+    animation-delay: 10s;
+    top: 36px;
+
+}
+
+@keyframes dop{
+    from{
+        top: 2px;
+        transform: scale(2);
+    }
+    to{
+        bottom: 2px;
+    }
+}

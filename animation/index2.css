@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.img1{    
+    
+    width: 20%;
+    height: 20%;
+
+
+
+}
+.img1{
+    transform: scaleX(-1);
+}
+.img1{
+    transform: scaleY(-1);
+}
+.img1{
+    transform: scale(-1,-1);
+}
